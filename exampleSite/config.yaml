@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Vikas Profile"
 theme: hugo-profile
 
 outputs:
@@ -56,7 +56,7 @@ params:
   title: "My Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/pic-removebg-preview.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -124,8 +124,8 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Vikas."
-    subtitle: "I uncover patterns in data"
+    title: "Vikas Kumar Sharma."
+    subtitle: "I instill order, illuminate data patterns, transforming chaos into clarity"
     content: "A dedicated data scientist. I leverage advanced machine learning algorithms and robust statistical methods to extract meaningful insights from data, guiding strategic decisions, refining processes, and forecasting trends."
     image: /images/hero.svg
     bottomImage:
@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/Vikas_Kumar_Sharma_Resume_Jan_2024_latest.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -144,7 +144,7 @@ params:
         #- icon: fab fa-x-twitter
         #  url: https://example.com
       customIcons:
-        - icon: /fav.png
+        - icon: /pic-removebg-preview.png
           url: "https://vikas-iitkgp-portfolio.netlify.app/"
 
   # About
@@ -162,122 +162,62 @@ params:
       items:
         - "Python, SQL, PowerBI"
         - "Data Analysis"
-        - "Data Visualization Tools"
+        - "Data Visualization"
         - "Machine Learning"
         - "Deep Learning"
         - "NLP"
+        - "Git"
+        - "Docker"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Senior Planning Engineer"
+        company: "Larsen & Toubro Limited"
+        companyUrl: "https://www.lntecc.com/"
+        date: "Jul 2019 - Jan 2022"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "Contributed to a Rs 248 cr project, utilizing Python, SQL, Excel, and Tableau for data analysis, reporting and visualization. Implemented risk assessment strategies through data analysis, mitigating engineering risks and ensuring project success. Developed automated reporting systems in Excel, improving cost-efficiency and providing insights to stakeholders. Utilized PowerBI for visualizing project progress, fostering transparent communication with clients and stakeholders"
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+      
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Technology in Technology Innovation and Entrepreneurship"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Indian Institute of Technology Kharagpur"
+          url: "https://www.iitkgp.ac.in/"
+        date: "2022 - 2024"
+        GPA: "9.58 out of 10.0"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+            - Secured a distinguished elite position among the top 10 frontrunners from 1021 teams in "KPIT Sparkle 2023" 
+            
+      - title: "Bachelor of Technology in Mechanical engineering"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "National Institute of Technology, Agartala"
+          url: "https://www.nita.ac.in/"
+        date: "2015 - 2019"
+        GPA: "8.83 out of 10.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Designed and built an ATV "Vegvahini 2.0" with a team of 25 members and participated BAJA SAEINDIA 2018 
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
           url: "https://example.com"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -302,57 +242,30 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: PDF Query Processor
+        content: Empowered by LLM, I crafted a sophisticated PDF Query Processor in Python, integrating cutting-edge techniques from Langchain and optimizing document vectors with FAISS for seamless query resolution
+        image: /images/projects/streamlit.jpg
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://vikas-iitkgp.streamlit.app/
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Python"
+          - "GooglePalm"
+          - "Langchain"
+        #links:
+        #  - icon: fa fa-envelope
+        #    url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        #  - icon: fab fa-github
+        #    url: https://github.com/gurusabarish/hugo-profile
+        #  - icon: fab fa-twitter
+        #    url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: sharmavikas.9798@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -365,14 +278,14 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/vkas9798
+      linkedin: https://www.linkedin.com/in/vikas-kumar-sharma-5b0092128/
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
