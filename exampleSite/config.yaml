@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://vikas-iitkgp-portfolio.netlify.app/"
 languageCode: "en-us"
 title: "Vikas Profile"
 theme: hugo-profile
@@ -56,7 +56,7 @@ params:
   title: "My Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/pic-removebg-preview.png"
+  favicon: "/Absolute_Reality_v16_deep_learning_icons_inside_one_hexagonal_2.jpg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
