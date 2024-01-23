@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "My Profile"
+  title: "Welcome"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/Absolute_Reality_v16_deep_learning_icons_inside_one_hexagonal_2.jpg"
@@ -106,7 +106,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "My Profile" # Brand name for the brand | default is the title variable
+    brandName: "Welcome" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -124,10 +124,10 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Vikas Kumar Sharma."
-    subtitle: "I instill order, illuminate data patterns, transforming chaos into clarity"
+    title: "Vikas Kumar Sharma"
+    subtitle: "The goal is to turn data into information, and information into insight"
     content: "A dedicated data scientist. I leverage advanced machine learning algorithms and robust statistical methods to extract meaningful insights from data, guiding strategic decisions, refining processes, and forecasting trends."
-    image: /images/hero.svg
+    image: \images\pic.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -135,8 +135,8 @@ params:
       enable: true
       name: "Resume"
       url: "/Vikas_Kumar_Sharma_Resume_Jan_2024_latest.pdf"
-      download: true
-      newPage: false
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -144,7 +144,7 @@ params:
         #- icon: fab fa-x-twitter
         #  url: https://example.com
       customIcons:
-        - icon: /pic-removebg-preview.png
+        - icon: \images\porfolio.png
           url: "https://vikas-iitkgp-portfolio.netlify.app/"
 
   # About
