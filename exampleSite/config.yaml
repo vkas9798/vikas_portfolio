@@ -26,8 +26,8 @@ Menus:
   main:
     - identifier: blog
       name: Blog
-      title: "Virtual Environments: What? Why? and How?"
-      url: "https://medium.com/@sharmavikas.9798/virtual-environments-what-why-and-how-10217a18e800"
+      title: Blog posts
+      url: /blog
       weight: 1
     - identifier: gallery
       name: Gallery
@@ -127,7 +127,7 @@ params:
     title: "Vikas Kumar Sharma"
     subtitle: "The goal is to turn data into information, and information into insight"
     content: "A dedicated data scientist. I leverage advanced machine learning algorithms and robust statistical methods to extract meaningful insights from data, guiding strategic decisions, refining processes, and forecasting trends."
-    image: /images/pic.jpeg
+    image: /images/data.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -183,6 +183,15 @@ params:
           name: "View the project"
           url: "https://example.com"
         content: "Contributed to a Rs 248 cr project, utilizing Python, SQL, Excel, and Tableau for data analysis, reporting and visualization. Implemented risk assessment strategies through data analysis, mitigating engineering risks and ensuring project success. Developed automated reporting systems in Excel, improving cost-efficiency and providing insights to stakeholders. Utilized PowerBI for visualizing project progress, fostering transparent communication with clients and stakeholders"
+      - job: "Summer Intern"
+        company: "ITS Planners & Engineers Pvt Ltd"
+        companyUrl: "https://www.itspe.co.in/"
+        date: "May 2023 - Jul 2023"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: "Initiated and executed the implementation of OD optimization at ITS Planners and Engineers, utilizing the pyswarm algorithm, while mastering optimization, Git, Docker, and Poetry, setting the stage for innovative development"
 
       
   # Education
@@ -289,7 +298,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: True
+      enable: falses
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/vkas9798
