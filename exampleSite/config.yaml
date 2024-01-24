@@ -26,8 +26,8 @@ Menus:
   main:
     - identifier: blog
       name: Blog
-      title: Blog posts
-      url: /blogs
+      title: "Virtual Environments: What? Why? and How?"
+      url: "https://medium.com/@sharmavikas.9798/virtual-environments-what-why-and-how-10217a18e800"
       weight: 1
     - identifier: gallery
       name: Gallery
@@ -127,7 +127,7 @@ params:
     title: "Vikas Kumar Sharma"
     subtitle: "The goal is to turn data into information, and information into insight"
     content: "A dedicated data scientist. I leverage advanced machine learning algorithms and robust statistical methods to extract meaningful insights from data, guiding strategic decisions, refining processes, and forecasting trends."
-    image: \images\pic.jpeg
+    image: /images/pic.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -144,7 +144,7 @@ params:
         #- icon: fab fa-x-twitter
         #  url: https://example.com
       customIcons:
-        - icon: \images\porfolio.png
+        - icon: /images/porfolio.png
           url: "https://vikas-iitkgp-portfolio.netlify.app/"
 
   # About
@@ -259,6 +259,17 @@ params:
         #    url: https://github.com/gurusabarish/hugo-profile
         #  - icon: fab fa-twitter
         #    url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+      - title: Hand-sign Detection
+        content: Implemented a real-time gesture recognition model utilizing YOLOv5, featuring a custom dataset with manual annotations, resulting in an impressive 0.995 mAP50 and 0.922 mAP50-95 scores, demonstrating exceptional accuracy in gesture detection
+        image: /images/projects/Sign_lang.jpg
+        #featured:
+          #name: Demo
+          #link: https://vikas-iitkgp.streamlit.app/
+        badges:
+          - "Deep Learning"
+          - "YoloV5"
+          - "Object Detection"
+
 
   #Contact
   contact:
@@ -278,7 +289,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: false
+      enable: True
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/vkas9798
